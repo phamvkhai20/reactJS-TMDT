@@ -1,0 +1,203 @@
+body{
+    background: #f5f5f5;
+}
+.header2{
+    border-radius: 20px;
+    a:hover{
+        
+        text-decoration: none;
+        li{
+            border-radius: 5px;
+            -webkit-box-shadow: -2px -4px 29px -3px rgba(0,0,0,0.22);
+            -moz-box-shadow: -2px -4px 29px -3px rgba(0,0,0,0.22);
+            box-shadow: -2px -4px 29px -3px rgba(0,0,0,0.22);
+        }
+    }
+
+}
+.navs{
+    background-color: red;
+    margin:"100px";
+    .formSearch{
+        margin: "100px";
+    }
+}
+.cart{
+    border: #fff solid 2px;
+    border-radius: 5px;
+    line-height: 25px;
+    text-align: center;
+    width: 170px;
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 60px;
+
+    position: relative;
+    display: inline-block;
+    .arrow-up {
+        width: 0; 
+        height: 0; 
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid rgb(255, 255, 255);
+        margin-top: -10px;
+        margin-left: 120px;
+      }
+    .dropdown-content{
+        margin-top: 10px;
+        margin-left: -55px;
+        display: none;
+        position: absolute;
+        color: #000;
+        background-color: #f7f7f7;
+        width: 270px;
+        z-index: 1;
+        border: rgb(238, 238, 238) 2px solid;
+        border-radius: 5px;
+        position: absolute;
+        .product-cart{
+            float: left;
+            width: 270px;
+            span{
+                float: left;
+            }
+        }
+        .button__order_cart{
+            
+        }
+       img{
+           float: left;
+           margin: 5px;
+           width: 100px;
+       }
+       span{
+           color: #000;
+       }
+    }
+    span{
+        padding-left: 10px;
+    }
+    a{
+        color: #fff;
+    }
+}
+.cart:hover .dropdown-content {display: block;}
+
+.formSearch{
+    margin-top: 20px;
+    .form-control{
+        height: 45px;
+    }
+}
+.header{
+    background: #7abe50;
+    top: 0;
+    width: 100%;
+}
+.htkh{
+    height: 350px;
+   ul{
+       margin-left: -40px;
+       li{
+           font-size: 14px;
+           list-style: none;
+           h6{
+               color: red;
+           }
+       }
+   }
+
+}
+.footer{
+    background: #fff;
+}
+.box-footer{
+    background-color: #fff;
+}
+.subscriber__form{
+    margin-left: 40%;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+.subscriber__form_main{
+    margin-top: -20px;
+    background: #e7f5de;
+    height: 100px;
+    .box__subscriber_{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    input{
+        border-radius: 20px;
+    }
+}
+.sidebar-menu{
+    background: #fff;
+    -webkit-box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.08);
+    -moz-box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.08);
+    box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.08);
+    height: 100%;
+    border-radius: 15px;
+    ul li{
+        color: #000;
+        padding-left: 10px;
+        margin-left: -40px;
+        list-style: none;
+        line-height: 40px;
+        margin-bottom: 5px;
+    }
+    ul li:hover{
+        color: rgb(73, 70, 70);
+        padding-left: 10px;
+        margin-left: -40px;
+        list-style: none;
+        line-height: 40px;
+        margin-bottom: 5px;
+    }
+    a:hover{
+        text-decoration: none;
+    }
+}
+///
+.cart-product{
+    -webkit-box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.08);
+-moz-box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.08);
+box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.08);
+    border-radius: 10px;
+    border: 0;
+    img{
+        border-radius: 10px;
+    }
+}
+.cart-product:hover{
+    -webkit-box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.28);
+-moz-box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.28);
+box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.28);
+
+}
+.button-mua{
+    width: 80%;
+    position: absolute;
+    bottom: 20px;
+}
+/// product 
+.filter__Product{
+    -webkit-box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.08);
+-moz-box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.08);
+box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.08);
+
+    height: 60px;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 100%;
+    margin: 10px 0 20px 0;
+    
+}
+.input__filter_product{
+    margin: 10px 0 20px 10px;
+    
+}
+
+.form__filter_products{
+}
